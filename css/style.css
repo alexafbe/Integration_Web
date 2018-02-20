@@ -11,6 +11,7 @@ html {
 body {
     width: 100%;
     height: 100%;
+    font-family: 'Lato';
 }
 
 
@@ -42,7 +43,7 @@ nav {
 
 #item {
     text-decoration: none;
-    color: white;
+    color: rgb(255,255,255);
     padding-left: 60px;
 }
 
@@ -50,20 +51,9 @@ nav {
     
 }
 
-#active {
-    text-decoration: none;
-    color: white;
-    margin-left: 60px;
-    border-bottom-left-radius: 5px;
-    border-bottom-right-radius: 5px;
-    background-color: rgba(255, 255, 255, 0.5);
-    width: 100px;
-    height: 80px;
-}
-
 #active1 {
     text-decoration: none;
-    color: white;
+    color: rgb(255,255,255);
     margin-left: 60px;
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
@@ -72,6 +62,16 @@ nav {
     height: 80px;
 }
 
+#active2 {
+    text-decoration: none;
+    color: rgb(255,255,255);
+    margin-left: 60px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-color: rgb(223, 92, 100);
+    width: 100px;
+    height: 80px;
+}
 
 /*PAGES*/
 
@@ -130,35 +130,52 @@ nav {
 
 
 #phrase {
-    
+  
 }
 
 #part1 {
-    
+    margin: 120px 250px;
+    padding: 25px;
+    color: rgb(255,255,255);
+    text-align: center;
 }
 
 h1 {
-    
+    margin-bottom: 47px;
 }
 
 #big {
-    
+    margin-bottom: 28px;
+    font-size: 20px;
+    text-transform: uppercase;
 }
 
 #lighter {
-    
+    color: rgba(255,255,255,0.5);
 }
 
 #part2 {
-    
+    display:flex;
+    align-items: center;
+    justify-content: flex-end;
+    text-align: center;
+    color: rgb(255, 255, 255);
 }
 
 #mini_art {
-    
+    border-radius: 5px;
+    background-color: rgb(200, 83, 90);
+    opacity: 0.8;
+    left: 250px;
+    right: 250px;
+    width: 260px;
+    height: 400px;
+    margin-left: 20px;
 }
 
 #img_services {
-    
+    margin-top: 40px;
+    margin-bottom: 30px;
 }
 
 #img_about {
@@ -166,7 +183,7 @@ h1 {
 }
 
 h2 {
-    
+    margin-bottom: 55px;
 }
 
 p {
