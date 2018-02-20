@@ -73,6 +73,39 @@ nav {
     height: 80px;
 }
 
+#active3 {
+    text-decoration: none;
+    color: rgb(255,255,255);
+    margin-left: 60px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-color: rgb(145, 119, 142);
+    width: 100px;
+    height: 80px;
+}
+
+#active4 {
+    text-decoration: none;
+    color: rgb(255,255,255);
+    margin-left: 60px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-color: rgb(161, 202, 108);
+    width: 100px;
+    height: 80px;
+}
+
+#active5 {
+    text-decoration: none;
+    color: rgb(255,255,255);
+    margin-left: 60px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-color: rgb(130, 200, 189);
+    width: 100px;
+    height: 80px;
+}
+
 /*PAGES*/
 
 
@@ -173,17 +206,37 @@ h1 {
     margin-left: 20px;
 }
 
+#mini_art2 {
+    border-radius: 5px;
+    background-color: rgb(77, 63, 75);
+    opacity: 0.8;
+    left: 250px;
+    right: 250px;
+    width: 260px;
+    height: 380px;
+    margin-left: 20px;
+}
+
 #img_services {
     margin-top: 40px;
     margin-bottom: 30px;
 }
 
 #img_about {
-    
+    margin-top: 45px;
+    margin-bottom: 26px;
 }
 
 h2 {
     margin-bottom: 55px;
+}
+
+#h2_2 {
+    margin-bottom: 16px;
+}
+
+#role {
+    color: rgb(161, 202, 108);
 }
 
 p {
