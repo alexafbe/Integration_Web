@@ -161,6 +161,13 @@ nav {
     z-index: 1;
 }
 
+.crsl {
+    height: 68px;
+    width: 112;
+    align-self: center;
+    padding: 0 15%;
+}
+
 #bolg {
     color: #74c7d5;
     align-self: center;

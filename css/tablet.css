@@ -1,0 +1,5 @@
+/*Nous avons eu un soucis avec le responsive tablette. Lorsque nous passions en version mobile, le css de ce fichier était toujours pris en compte malgré la largeur inférieure à la limite. Nous avons malgré tout laissé ce fichier car le supprimer gâche une grande partie du CSS & du responsive. Il est indispensable au bon fonctionnement du site. Nous avons cherché la solution durant plusieurs heures mais sans succès à un stade aussi avancé. Je suis désolée du possible désagrément.
+
+.mini_art, .mini_art2 {
+    flex-basis: calc(50% - 20px);
+}*/

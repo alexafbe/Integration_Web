@@ -28,6 +28,7 @@
         </header>
         
         <article id="phrase">
+          <img class="crsl" src="images/previous.png" alt="Previous">
            <article id="bolg">
                <div id="first_text">
                    <span id="upper_text">Good ideas</span>
@@ -37,6 +38,7 @@
                    first!
                </div>
            </article>
+           <img class="crsl" src="images/next.png" alt="Next">
         </article>      
     </section>
     
