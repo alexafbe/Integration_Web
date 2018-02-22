@@ -251,6 +251,7 @@ h1 {
     color: rgb(255, 255, 255);
     padding-bottom: 120px;
     flex-wrap: wrap;
+    flex-basis: 100%;
 }
 
 .part2 {
@@ -262,6 +263,7 @@ h1 {
     text-align: center;
     color: rgb(255, 255, 255);
     padding-bottom: 120px;
+    flex-basis: 100%;
 }
 
 .mini_art {
