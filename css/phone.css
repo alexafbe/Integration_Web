@@ -203,13 +203,13 @@ nav {
 
 h1 {
     padding-bottom: 45px;
-    font-size: 50px;
+    font-size: 40px;
     font-weight: 300;
 }
 
 #big {
     padding-bottom: 25px;
-    font-size: 15px;
+    font-size: 20px;
     text-transform: uppercase;
     font-weight: 400;
 }
@@ -336,7 +336,7 @@ h1 {
 
 p {
     line-height: 1.714;
-    font-size: 9px;
+    font-size: 14px;
     font-weight: 400;
 }
 
