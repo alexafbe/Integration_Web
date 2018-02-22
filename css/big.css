@@ -1,0 +1,21 @@
+.pag {
+    padding-left: 16.67%;
+    padding-right: 16.67%;
+}
+
+#map > iframe {
+    width: 260px;
+    height: 220px;
+}
+
+.titles {
+    width: 70px;
+}
+
+.part2, #part2_2. {
+    padding-bottom: 120px;
+}
+
+#part2_4 {
+    padding-bottom: 160px;
+}
