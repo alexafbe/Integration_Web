@@ -14,6 +14,23 @@ body {
     font-family: 'Lato', sans-serif;
 }
 
+@keyframes test{
+  0%{
+    transform: scale(1);
+  }    
+  25%{
+    transform: scale(0.9);
+  }
+  50%{
+    transform: scale(1);
+  }
+  75%{
+    transform: scale(1.1);
+  }
+  100%{
+    transform: scale(1);
+  }
+}
 
 /*MENU*/
 
@@ -48,7 +65,10 @@ nav {
 }
 
 .item:hover {
-    
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.1);
+    transition: all 1s ease-out;
 }
 
 #active1 {
@@ -268,6 +288,7 @@ h1 {
     margin-left: 20px;
     width: 25%;
     flex: 1 0 auto;
+    padding-bottom: 30px;
 }
 
 .mini_art2:first-child {
@@ -277,6 +298,11 @@ h1 {
 .img_services {
     margin-top: 40px;
     margin-bottom: 25px;
+}
+
+.img_services:hover {
+    animation : test 2s linear infinite;
+    transform-origin: 50% 50%;
 }
 
 .img_about {
@@ -326,50 +352,56 @@ p {
 
 .social_network {
     display: inline-block;
-    width: 30px;
-    height: 30px;
+    align-items: center;
+    width: 31px;
+    height: 31px;
 }
 
 #facebook {
-    background: url(../images/about/facebook.png) 0 0 no-repeat; 
+    background: url(../images/about/facebook.png) 0 0 no-repeat;
+    padding-left: 20px;
 }
 
 #facebook:hover {
-    background-position: 0 -30px;
+    background-position: 0 -31px;
 }
 
 #twitter {
-    background: url(../images/about/twitter.png) 0 0 no-repeat; 
+    background: url(../images/about/twitter.png) 0 0 no-repeat;
+    padding-left: 20px;
 }
 
 #twitter:hover {
-    background-position: 0 -30px;
+    background-position: 0 -31px;
 }
 
 #google {
-    background: url(../images/about/google.png) 0 0 no-repeat; 
+    background: url(../images/about/google.png) 0 0 no-repeat;
+    padding-left: 20px;
 }
 
 #google:hover {
-    background-position: 0 -30px;
+    background-position: 0 -31px;
 }
 
 #linkedin {
-    background: url(../images/about/linkedin.png) 0 0 no-repeat; 
+    background: url(../images/about/linkedin.png) 0 0 no-repeat;
 }
 
 #linkedin:hover {
-    background-position: 0 -30px;
+    background-position: 0 -31px;
 }
 
 /*PAGE 4*/
 
 #hr1 {
+    color: rgb(148, 185, 99);
     margin-top: 60px;
     margin-bottom: 40px;
 }
 
 #hr2 {
+    color: rgb(148, 185, 99);
     top: 40px;
     position: relative;
 }
@@ -403,10 +435,334 @@ h3 {
 }
 
 .item2:hover {
-    background-color: #fcc707;
+    background-color: rgba(251,179,66, 0.8);
+    transition: all 1s ease-out;
 }
 
 #activep {
-    background-color: #fcc707;
+    background-color: #fbb342;
 }
 
+#back1 {
+    background: url(../images/work/Portfolio1.jpg);
+    background-position: center center;
+}
+
+#back1:hover {
+    background: url(../images/work/plus.png), url(../images/work/Portfolio1.jpg);
+    background-position: center center; 
+}
+
+#back2 {
+    background: url(../images/work/Portfolio2.jpg);
+    background-position: center center;
+    z-index: 1;
+}
+
+#back2:hover {
+    background: url(../images/work/plus.png), url(../images/work/Portfolio2.jpg);
+    background-position: center; 
+    z-index: 2;
+}
+
+#back3 {
+    background: url(../images/work/Portfolio3.jpg) no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+#back3:hover {
+    background: url(../images/work/plus.png),
+    url(../images/work/Portfolio3.jpg);
+    background-position: center; 
+    z-index: 2;
+}
+
+#back4 {
+    background: url(../images/work/Portfolio4.jpg);
+    background-position: center center;
+}
+
+#back4:hover {
+    background: url(../images/work/plus.png), url(../images/work/Portfolio4.jpg);
+    background-position: center; 
+    z-index: 2;
+}
+
+#back5 {
+    background: url(../images/work/Portfolio5.jpg);
+    background-position: center center;
+}
+
+#back5:hover {
+    background: url(../images/work/plus.png), url(../images/work/Portfolio5.jpg);
+    background-position: center; 
+    z-index: 2;
+}
+
+#back6 {
+    background: url(../images/work/Portfolio6.jpg);
+    background-position: center center;
+}
+
+#back6:hover {
+    background: url(../images/work/plus.png), url(../images/work/Portfolio6.jpg);
+    background-position: center; 
+    z-index: 2;
+}
+
+#back7 {
+    background: url(../images/work/Portfolio7.jpg);
+    background-position: center center;
+}
+
+#back7:hover {
+    background: url(../images/work/plus.png), url(../images/work/Portfolio7.jpg);
+    background-position: center; 
+    z-index: 2;
+}
+
+#back8 {
+    background: url(../images/work/Portfolio8.jpg);
+    background-position: center center;
+}
+
+#back8:hover {
+    background: url(../images/work/plus.png), url(../images/work/Portfolio8.jpg);
+    background-position: center; 
+    z-index: 2;
+}
+
+#photo {
+    padding-top: 80px;
+    padding-bottom: 100px;
+    left: 15.6%;
+    margin-left: -20px;
+    right: 15.6%;
+    display: flex;
+}
+
+.photographies {
+    width: 25%;
+    flex: 1 0 auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.image_portfolio {
+    margin-left: 20px;
+}
+
+.image_portfolio:first-child {
+    margin-bottom: 20px;
+}
+
+.portfolio {
+    width: 100%;
+    height: 200px;
+    border-radius: 5px;
+}
+
+.text_img {
+    text-transform: uppercase;
+    background-color: rgb(255,255,255);
+    text-align: center;
+    margin-top: -5px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-weight: 300;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    position: relative;
+}
+
+.text_img::before {
+    content: '';
+    width: 35px;
+    height: 18px;
+    bottom: 97.5%;
+    background: url('../images/work/fleche.png') no-repeat;
+    position: absolute;
+    left: calc(50% - 15px);
+}
+
+/*PAGE CONTACT*/
+
+#part2_4 {
+    padding-top: 120px;
+    padding-bottom: 160px;
+    display: flex;
+    justify-content: space-between;
+    align-content: flex-start;
+}
+
+.address {
+    display: block;
+    color: rgb(255,255,255);
+    font-weight: 300;
+    font-size: 30px;
+    padding-bottom: 25px;
+}
+
+#firm {
+    display: block;
+    color: rgb(255,255,255);
+    font-size: 20px;
+    opacity: 0.5;
+    font-weight: 400;
+    padding-bottom: 19px;
+}
+
+.titles {
+    display: inline-block;
+    color: rgb(255,255,255);
+    font-size: 16px;
+    opacity: 0.5;
+    font-weight: 300;
+    width: 70px;
+}
+
+#coord {
+    color: rgb(255,255,255);
+    font-size: 16px;
+    font-weight: 300;
+}
+
+#map {
+    width: 260px;
+    padding-left: 45px;
+    display: flex;
+}
+
+#map > iframe {
+    align-self: flex-end;
+}
+
+#mail {
+    color: white;
+}
+
+#coo {
+    color: rgb(255,255,255);
+    padding-top: 80px;
+}
+
+#part2_4 > section {
+    flex-basis: 50%;
+}
+
+#infos {
+    display: flex;
+    justify-content: center;
+    align-content: flex-end;
+    align-self: flex-start;
+}
+
+#form {
+    
+}
+
+#formula {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.field {
+    background: #68A097;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    padding: 15px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+#no_margin {
+    margin-right: 0;
+}
+
+.field:focus {
+    background: rgb(255,255,255);
+}
+
+#text_area {
+    height: 150px;
+    background: #68A097;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    padding: 15px;
+}
+
+#text_area:focus {
+    background: rgb(255,255,255);
+}
+
+input {
+    flex-basis: calc(50% - 40px);
+}
+
+textarea {
+    flex-basis: 100%;
+}
+
+.button {
+    font-size: 26px;
+    margin-top: 20px;
+    padding: 15px 98px;
+    background: rgb(223, 92, 100);
+    border-radius: 5px;
+    box-shadow: inset 0px -4px 0px 0px rgba(178, 74, 80, 0.5);
+    color: rgb(255,255,255);
+    font-weight: 700;
+}
+
+.button:hover {
+    opacity: 0.8;
+}
+
+::placeholder {
+    opacity: 1;
+    color: #82C8BD;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+:-ms-input-placeholder {
+    color: #82C8BD;
+}
+
+::-ms-input-placeholder {
+    color: #82C8BD;
+}
+
+/*Footer*/
+
+footer {
+    background-color: rgb(104, 160, 151);
+    position: absolute;
+    height: 150px;
+    width: 100%;   
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+#logo_footer {
+    margin: auto;
+}
+
+.foot {
+    margin-left: 40px;
+}
+
+.foot:first-child {
+    margin: 0;
+}
+
+.foot:hover {
+    opacity: 0.6;
+    transition: all 1s ease-out;
+    transform: rotate(360deg);
+}
