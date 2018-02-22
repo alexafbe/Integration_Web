@@ -1,3 +1,52 @@
+.menu {
+    display:flex;
+}
+
+.menu2 {
+    justify-content: flex-end;
+    margin-top: 0;
+}
+
+#active1 {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-color: rgb(116, 199, 213);
+}
+
+#active2 {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-color: rgb(223, 92, 100);
+}
+
+#active3 {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-color: rgb(145, 119, 142);
+}
+
+#active4 {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-color: rgb(161, 202, 108);
+}
+
+#active5 {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-color: rgb(130, 200, 189);
+}
+
 .pag {
     padding-left: 16.67%;
     padding-right: 16.67%;
@@ -8,8 +57,16 @@
     height: 220px;
 }
 
-.text_img {
-    font-size: 20px;
+nav {
+    display: flex;
+}
+
+#phrase {
+    top: 0;
+}
+
+#bolg {
+    display: flex;
 }
 
 .titles {
@@ -23,3 +80,4 @@
 #part2_4 {
     padding-bottom: 160px;
 }
+
