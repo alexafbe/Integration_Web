@@ -7,6 +7,15 @@
     margin-top: 0;
 }
 
+#part2_4 {
+    display: flex;
+}
+
+#info {
+    padding-bottom: 0;
+    justify-content: center;
+}
+
 #active1 {
     border-top-left-radius: 0;
     border-top-right-radius: 0;

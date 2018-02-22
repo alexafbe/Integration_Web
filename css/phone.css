@@ -600,7 +600,6 @@ h3 {
 #part2_4 {
     padding-top: 120px;
     padding-bottom: 60px;
-    display: flex;
     justify-content: space-between;
     align-content: flex-start;
 }
@@ -662,9 +661,9 @@ h3 {
 
 #infos {
     display: flex;
-    justify-content: center;
     align-content: flex-end;
     align-self: flex-start;
+    padding-bottom: 40px;
 }
 
 #form {
